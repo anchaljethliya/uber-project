@@ -1,0 +1,326 @@
+/* Existing CSS code */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #000;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar nav {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.auth {
+  display: flex;
+  gap: 20px;
+}
+
+.auth a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.auth .sign-up {
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.auth .sign-up:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.hero-content {
+  max-width: 500px;
+  margin-left: 120px;
+}
+
+.hero-content h1 {
+  font-size: 4em;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #fff;
+  width: 100%;
+}
+
+.input-box::placeholder {
+  color: #ccc;
+}
+
+.input-box:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.icon {
+  margin-left: -30px;
+}
+
+.price-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hero-image {
+  width: 550px;
+  height: 650px;
+  border-radius: 20px;
+  margin-right: 30px;
+}
+
+.driver-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #fff;
+  color: #000;
+}
+
+.driver-image {
+  width: 521px;
+  height: 521px;
+  border-radius: 20px;
+  margin-left: 120px;
+}
+
+.driver-content {
+  max-width: 500px;
+  text-align: left;
+  margin-right: 40px;
+}
+
+.driver-content h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.driver-content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.driver-content .account {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.driver-content .get-started {
+  padding: 10px 20px;
+  width:135px;
+  height: 48px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+}
+
+.driver-content a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.part-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: white;
+  color: black;
+}
+
+.start-content {
+  max-width: 500px;
+  margin-left: 120px;
+}
+
+.start-content h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.start-content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.check {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.check .get-started {
+  padding: 10px 20px;
+  border: none;
+  height:48px;
+  width: 135px;
+  border-radius: 5px;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+}
+
+.image-3 {
+  width: 521px;
+  height: 521px;
+  border-radius: 20px;
+  margin-right: 120px;
+}
+
+/* New CSS for footer */
+.footer {
+  width: 1206px;
+  height: 910px;
+  background-color: #000;
+  color: #fff;
+  padding: 64px;
+ 
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #333;
+}
+.footer-top a{
+  display:inline-flex;
+}
+
+.footer-top .footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+  display:inline-block
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-column a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer-column a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+}
+
+.footer-social a {
+  margin-right: 20px;
+}
+
+.footer-social img {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-app-links a {
+  margin-right: 20px;
+}
+
+.footer-app-links img {
+  width: 100px;
+  height: 30px;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.footer-info a {
+  color: #ccc;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.footer-info a:hover {
+  color: #fff;
+}
+
+.footer-language {
+  display: flex;
+  gap: 10px;
+}
+.but {
+  width: 129px;
+  height:47px;
+}
